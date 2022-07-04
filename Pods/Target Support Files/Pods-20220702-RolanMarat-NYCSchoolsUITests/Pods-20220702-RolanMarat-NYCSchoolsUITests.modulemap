@@ -1,0 +1,6 @@
+framework module Pods_20220702_RolanMarat_NYCSchoolsUITests {
+  umbrella header "Pods-20220702-RolanMarat-NYCSchoolsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

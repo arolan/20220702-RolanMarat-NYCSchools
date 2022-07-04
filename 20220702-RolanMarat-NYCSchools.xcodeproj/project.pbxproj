@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2CB19A2028727E30000A5B0D /* SchoolDetailsMapCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB19A1F28727E30000A5B0D /* SchoolDetailsMapCollectionViewCell.swift */; };
+		2CB19A22287281DE000A5B0D /* SchoolMapAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB19A21287281DE000A5B0D /* SchoolMapAnnotation.swift */; };
+		2CB19A2428729F43000A5B0D /* MockSchoolAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB19A2328729F43000A5B0D /* MockSchoolAPI.swift */; };
 		2CFAB167287146A100D8548A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB166287146A100D8548A /* AppDelegate.swift */; };
 		2CFAB169287146A100D8548A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB168287146A100D8548A /* SceneDelegate.swift */; };
 		2CFAB16B287146A100D8548A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB16A287146A100D8548A /* ViewController.swift */; };
@@ -16,6 +19,25 @@
 		2CFAB17E287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB17D287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsTests.swift */; };
 		2CFAB188287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB187287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsUITests.swift */; };
 		2CFAB18A287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB189287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsUITestsLaunchTests.swift */; };
+		2CFAB1A228714BF500D8548A /* Strings+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1A128714BF500D8548A /* Strings+Localization.swift */; };
+		2CFAB1A428714C2F00D8548A /* DataError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1A328714C2F00D8548A /* DataError.swift */; };
+		2CFAB1A628714C5400D8548A /* SchoolsDirectoryAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1A528714C5400D8548A /* SchoolsDirectoryAPI.swift */; };
+		2CFAB1A828714DF800D8548A /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1A728714DF800D8548A /* School.swift */; };
+		2CFAB1AA2872009200D8548A /* SchoolsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1A92872009200D8548A /* SchoolsViewModel.swift */; };
+		2CFAB1AC2872016D00D8548A /* SchoolsListStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1AB2872016D00D8548A /* SchoolsListStateView.swift */; };
+		2CFAB1AF2872023A00D8548A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2CFAB1AE2872023A00D8548A /* Localizable.strings */; };
+		2CFAB1B12872037900D8548A /* SchoolCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1B02872037900D8548A /* SchoolCollectionViewCell.swift */; };
+		2CFAB1B3287206BB00D8548A /* SchoolSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1B2287206BB00D8548A /* SchoolSectionHeaderView.swift */; };
+		2CFAB1B62872072000D8548A /* SchoolSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1B52872072000D8548A /* SchoolSection.swift */; };
+		2CFAB1B8287213E600D8548A /* SchoolsCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1B7287213E600D8548A /* SchoolsCollectionViewController.swift */; };
+		2CFAB1BA28721B9800D8548A /* SchoolSAT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1B928721B9800D8548A /* SchoolSAT.swift */; };
+		2CFAB1BC2872332800D8548A /* SchoolDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1BB2872332800D8548A /* SchoolDetailsViewController.swift */; };
+		2CFAB1BE287234E900D8548A /* SchoolDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1BD287234E900D8548A /* SchoolDetailsViewModel.swift */; };
+		2CFAB1C028723B2900D8548A /* SchoolDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1BF28723B2900D8548A /* SchoolDetailsCollectionViewCell.swift */; };
+		2CFAB1C228723B6E00D8548A /* SchoolSATDetailsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFAB1C128723B6E00D8548A /* SchoolSATDetailsCollectionViewCell.swift */; };
+		39DEA647CE67F37B3A231B49 /* Pods_20220702_RolanMarat_NYCSchoolsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F5BF652B3ADE9DBF74CB53 /* Pods_20220702_RolanMarat_NYCSchoolsUITests.framework */; };
+		4A63C1DD53A1BF4F42AE87EA /* Pods_20220702_RolanMarat_NYCSchools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6245E92D1D426D78300D5F0D /* Pods_20220702_RolanMarat_NYCSchools.framework */; };
+		6356A4C94EABA0641039E889 /* Pods_20220702_RolanMarat_NYCSchoolsTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6F6C883E2F0798646FE7A8 /* Pods_20220702_RolanMarat_NYCSchoolsTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +58,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DA1F7B6C98E2F3DF3071E85 /* Pods-20220702-RolanMarat-NYCSchoolsTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220702-RolanMarat-NYCSchoolsTests.release.xcconfig"; path = "Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsTests/Pods-20220702-RolanMarat-NYCSchoolsTests.release.xcconfig"; sourceTree = "<group>"; };
+		157D8D2F48E7D05DE26A8358 /* Pods-20220702-RolanMarat-NYCSchoolsTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220702-RolanMarat-NYCSchoolsTests.debug.xcconfig"; path = "Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsTests/Pods-20220702-RolanMarat-NYCSchoolsTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2CB19A1F28727E30000A5B0D /* SchoolDetailsMapCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsMapCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CB19A21287281DE000A5B0D /* SchoolMapAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolMapAnnotation.swift; sourceTree = "<group>"; };
+		2CB19A2328729F43000A5B0D /* MockSchoolAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockSchoolAPI.swift; sourceTree = "<group>"; };
 		2CFAB163287146A100D8548A /* 20220702-RolanMarat-NYCSchools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "20220702-RolanMarat-NYCSchools.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFAB166287146A100D8548A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2CFAB168287146A100D8548A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +76,29 @@
 		2CFAB183287146B100D8548A /* 20220702-RolanMarat-NYCSchoolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20220702-RolanMarat-NYCSchoolsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2CFAB187287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220702_RolanMarat_NYCSchoolsUITests.swift; sourceTree = "<group>"; };
 		2CFAB189287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _0220702_RolanMarat_NYCSchoolsUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2CFAB1A128714BF500D8548A /* Strings+Localization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Strings+Localization.swift"; sourceTree = "<group>"; };
+		2CFAB1A328714C2F00D8548A /* DataError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataError.swift; sourceTree = "<group>"; };
+		2CFAB1A528714C5400D8548A /* SchoolsDirectoryAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsDirectoryAPI.swift; sourceTree = "<group>"; };
+		2CFAB1A728714DF800D8548A /* School.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		2CFAB1A92872009200D8548A /* SchoolsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsViewModel.swift; sourceTree = "<group>"; };
+		2CFAB1AB2872016D00D8548A /* SchoolsListStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsListStateView.swift; sourceTree = "<group>"; };
+		2CFAB1AE2872023A00D8548A /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		2CFAB1B02872037900D8548A /* SchoolCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CFAB1B2287206BB00D8548A /* SchoolSectionHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSectionHeaderView.swift; sourceTree = "<group>"; };
+		2CFAB1B52872072000D8548A /* SchoolSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSection.swift; sourceTree = "<group>"; };
+		2CFAB1B7287213E600D8548A /* SchoolsCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolsCollectionViewController.swift; sourceTree = "<group>"; };
+		2CFAB1B928721B9800D8548A /* SchoolSAT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSAT.swift; sourceTree = "<group>"; };
+		2CFAB1BB2872332800D8548A /* SchoolDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewController.swift; sourceTree = "<group>"; };
+		2CFAB1BD287234E900D8548A /* SchoolDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewModel.swift; sourceTree = "<group>"; };
+		2CFAB1BF28723B2900D8548A /* SchoolDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		2CFAB1C128723B6E00D8548A /* SchoolSATDetailsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolSATDetailsCollectionViewCell.swift; sourceTree = "<group>"; };
+		5E6F6C883E2F0798646FE7A8 /* Pods_20220702_RolanMarat_NYCSchoolsTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20220702_RolanMarat_NYCSchoolsTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6245E92D1D426D78300D5F0D /* Pods_20220702_RolanMarat_NYCSchools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20220702_RolanMarat_NYCSchools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BC7603BA101BB68070BBE64 /* Pods-20220702-RolanMarat-NYCSchools.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220702-RolanMarat-NYCSchools.debug.xcconfig"; path = "Target Support Files/Pods-20220702-RolanMarat-NYCSchools/Pods-20220702-RolanMarat-NYCSchools.debug.xcconfig"; sourceTree = "<group>"; };
+		7FFCF14D607F4F4A94CFE4E1 /* Pods-20220702-RolanMarat-NYCSchoolsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220702-RolanMarat-NYCSchoolsUITests.release.xcconfig"; path = "Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsUITests/Pods-20220702-RolanMarat-NYCSchoolsUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8564A4CDE9F97F7A01B3ECFE /* Pods-20220702-RolanMarat-NYCSchoolsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220702-RolanMarat-NYCSchoolsUITests.debug.xcconfig"; path = "Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsUITests/Pods-20220702-RolanMarat-NYCSchoolsUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		93F5BF652B3ADE9DBF74CB53 /* Pods_20220702_RolanMarat_NYCSchoolsUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_20220702_RolanMarat_NYCSchoolsUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A567B16CC99BF58D369260A1 /* Pods-20220702-RolanMarat-NYCSchools.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-20220702-RolanMarat-NYCSchools.release.xcconfig"; path = "Target Support Files/Pods-20220702-RolanMarat-NYCSchools/Pods-20220702-RolanMarat-NYCSchools.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4A63C1DD53A1BF4F42AE87EA /* Pods_20220702_RolanMarat_NYCSchools.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6356A4C94EABA0641039E889 /* Pods_20220702_RolanMarat_NYCSchoolsTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39DEA647CE67F37B3A231B49 /* Pods_20220702_RolanMarat_NYCSchoolsUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +136,8 @@
 				2CFAB17C287146B100D8548A /* 20220702-RolanMarat-NYCSchoolsTests */,
 				2CFAB186287146B100D8548A /* 20220702-RolanMarat-NYCSchoolsUITests */,
 				2CFAB164287146A100D8548A /* Products */,
+				E7C7F61B57C6F2C0C6DF6585 /* Pods */,
+				8231FF5E8915F500DE5CFE45 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +154,8 @@
 		2CFAB165287146A100D8548A /* 20220702-RolanMarat-NYCSchools */ = {
 			isa = PBXGroup;
 			children = (
+				2CFAB19628714B0F00D8548A /* App */,
+				2CFAB1AD2872022200D8548A /* Supporting */,
 				2CFAB166287146A100D8548A /* AppDelegate.swift */,
 				2CFAB168287146A100D8548A /* SceneDelegate.swift */,
 				2CFAB16A287146A100D8548A /* ViewController.swift */,
@@ -114,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				2CFAB17D287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsTests.swift */,
+				2CB19A2328729F43000A5B0D /* MockSchoolAPI.swift */,
 			);
 			path = "20220702-RolanMarat-NYCSchoolsTests";
 			sourceTree = "<group>";
@@ -127,6 +185,141 @@
 			path = "20220702-RolanMarat-NYCSchoolsUITests";
 			sourceTree = "<group>";
 		};
+		2CFAB19628714B0F00D8548A /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB19828714B1D00D8548A /* Schools */,
+				2CFAB19728714B1500D8548A /* Utilities */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2CFAB19728714B1500D8548A /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1A128714BF500D8548A /* Strings+Localization.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		2CFAB19828714B1D00D8548A /* Schools */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB19928714B3A00D8548A /* UI */,
+				2CFAB19A28714B9300D8548A /* DataLayer */,
+			);
+			path = Schools;
+			sourceTree = "<group>";
+		};
+		2CFAB19928714B3A00D8548A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB19E28714BC000D8548A /* ViewModels */,
+				2CFAB19D28714BB800D8548A /* Views */,
+				2CFAB19C28714BAB00D8548A /* Models */,
+				2CFAB19B28714BA100D8548A /* Controllers */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		2CFAB19A28714B9300D8548A /* DataLayer */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1A028714BD200D8548A /* Models */,
+				2CFAB19F28714BCA00D8548A /* Networking */,
+			);
+			path = DataLayer;
+			sourceTree = "<group>";
+		};
+		2CFAB19B28714BA100D8548A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1B7287213E600D8548A /* SchoolsCollectionViewController.swift */,
+				2CFAB1BB2872332800D8548A /* SchoolDetailsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		2CFAB19C28714BAB00D8548A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1B52872072000D8548A /* SchoolSection.swift */,
+				2CB19A21287281DE000A5B0D /* SchoolMapAnnotation.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CFAB19D28714BB800D8548A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1AB2872016D00D8548A /* SchoolsListStateView.swift */,
+				2CFAB1B02872037900D8548A /* SchoolCollectionViewCell.swift */,
+				2CFAB1B2287206BB00D8548A /* SchoolSectionHeaderView.swift */,
+				2CFAB1BF28723B2900D8548A /* SchoolDetailsCollectionViewCell.swift */,
+				2CFAB1C128723B6E00D8548A /* SchoolSATDetailsCollectionViewCell.swift */,
+				2CB19A1F28727E30000A5B0D /* SchoolDetailsMapCollectionViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2CFAB19E28714BC000D8548A /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1A92872009200D8548A /* SchoolsViewModel.swift */,
+				2CFAB1BD287234E900D8548A /* SchoolDetailsViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		2CFAB19F28714BCA00D8548A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1A328714C2F00D8548A /* DataError.swift */,
+				2CFAB1A528714C5400D8548A /* SchoolsDirectoryAPI.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2CFAB1A028714BD200D8548A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1A728714DF800D8548A /* School.swift */,
+				2CFAB1B928721B9800D8548A /* SchoolSAT.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2CFAB1AD2872022200D8548A /* Supporting */ = {
+			isa = PBXGroup;
+			children = (
+				2CFAB1AE2872023A00D8548A /* Localizable.strings */,
+			);
+			path = Supporting;
+			sourceTree = "<group>";
+		};
+		8231FF5E8915F500DE5CFE45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6245E92D1D426D78300D5F0D /* Pods_20220702_RolanMarat_NYCSchools.framework */,
+				5E6F6C883E2F0798646FE7A8 /* Pods_20220702_RolanMarat_NYCSchoolsTests.framework */,
+				93F5BF652B3ADE9DBF74CB53 /* Pods_20220702_RolanMarat_NYCSchoolsUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E7C7F61B57C6F2C0C6DF6585 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6BC7603BA101BB68070BBE64 /* Pods-20220702-RolanMarat-NYCSchools.debug.xcconfig */,
+				A567B16CC99BF58D369260A1 /* Pods-20220702-RolanMarat-NYCSchools.release.xcconfig */,
+				157D8D2F48E7D05DE26A8358 /* Pods-20220702-RolanMarat-NYCSchoolsTests.debug.xcconfig */,
+				0DA1F7B6C98E2F3DF3071E85 /* Pods-20220702-RolanMarat-NYCSchoolsTests.release.xcconfig */,
+				8564A4CDE9F97F7A01B3ECFE /* Pods-20220702-RolanMarat-NYCSchoolsUITests.debug.xcconfig */,
+				7FFCF14D607F4F4A94CFE4E1 /* Pods-20220702-RolanMarat-NYCSchoolsUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,9 +327,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CFAB18D287146B100D8548A /* Build configuration list for PBXNativeTarget "20220702-RolanMarat-NYCSchools" */;
 			buildPhases = (
+				AFB3170BEB99BA1BB4BFD95C /* [CP] Check Pods Manifest.lock */,
 				2CFAB15F287146A100D8548A /* Sources */,
 				2CFAB160287146A100D8548A /* Frameworks */,
 				2CFAB161287146A100D8548A /* Resources */,
+				736BB35CC5CE829408DC7E81 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,9 +346,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CFAB190287146B100D8548A /* Build configuration list for PBXNativeTarget "20220702-RolanMarat-NYCSchoolsTests" */;
 			buildPhases = (
+				59110A0EF5C9DAC4F9F669D5 /* [CP] Check Pods Manifest.lock */,
 				2CFAB175287146B100D8548A /* Sources */,
 				2CFAB176287146B100D8548A /* Frameworks */,
 				2CFAB177287146B100D8548A /* Resources */,
+				09239DECB2AD8EDE3AE75BAA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -169,9 +366,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2CFAB193287146B100D8548A /* Build configuration list for PBXNativeTarget "20220702-RolanMarat-NYCSchoolsUITests" */;
 			buildPhases = (
+				2A66C711BB1D9E2D8ADC13B8 /* [CP] Check Pods Manifest.lock */,
 				2CFAB17F287146B100D8548A /* Sources */,
 				2CFAB180287146B100D8548A /* Frameworks */,
 				2CFAB181287146B100D8548A /* Resources */,
+				95C81BC17A53461DA78FE994 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2CFAB173287146B100D8548A /* LaunchScreen.storyboard in Resources */,
+				2CFAB1AF2872023A00D8548A /* Localizable.strings in Resources */,
 				2CFAB170287146B100D8548A /* Assets.xcassets in Resources */,
 				2CFAB16E287146A100D8548A /* Main.storyboard in Resources */,
 			);
@@ -253,14 +453,151 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09239DECB2AD8EDE3AE75BAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsTests/Pods-20220702-RolanMarat-NYCSchoolsTests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsTests/Pods-20220702-RolanMarat-NYCSchoolsTests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsTests/Pods-20220702-RolanMarat-NYCSchoolsTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2A66C711BB1D9E2D8ADC13B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20220702-RolanMarat-NYCSchoolsUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		59110A0EF5C9DAC4F9F669D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20220702-RolanMarat-NYCSchoolsTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		736BB35CC5CE829408DC7E81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchools/Pods-20220702-RolanMarat-NYCSchools-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchools/Pods-20220702-RolanMarat-NYCSchools-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchools/Pods-20220702-RolanMarat-NYCSchools-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95C81BC17A53461DA78FE994 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsUITests/Pods-20220702-RolanMarat-NYCSchoolsUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsUITests/Pods-20220702-RolanMarat-NYCSchoolsUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-20220702-RolanMarat-NYCSchoolsUITests/Pods-20220702-RolanMarat-NYCSchoolsUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AFB3170BEB99BA1BB4BFD95C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-20220702-RolanMarat-NYCSchools-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2CFAB15F287146A100D8548A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFAB1AA2872009200D8548A /* SchoolsViewModel.swift in Sources */,
+				2CFAB1BE287234E900D8548A /* SchoolDetailsViewModel.swift in Sources */,
+				2CFAB1A828714DF800D8548A /* School.swift in Sources */,
+				2CFAB1BA28721B9800D8548A /* SchoolSAT.swift in Sources */,
+				2CFAB1C028723B2900D8548A /* SchoolDetailsCollectionViewCell.swift in Sources */,
+				2CFAB1B8287213E600D8548A /* SchoolsCollectionViewController.swift in Sources */,
+				2CFAB1C228723B6E00D8548A /* SchoolSATDetailsCollectionViewCell.swift in Sources */,
+				2CFAB1A428714C2F00D8548A /* DataError.swift in Sources */,
 				2CFAB16B287146A100D8548A /* ViewController.swift in Sources */,
 				2CFAB167287146A100D8548A /* AppDelegate.swift in Sources */,
 				2CFAB169287146A100D8548A /* SceneDelegate.swift in Sources */,
+				2CB19A2028727E30000A5B0D /* SchoolDetailsMapCollectionViewCell.swift in Sources */,
+				2CFAB1B12872037900D8548A /* SchoolCollectionViewCell.swift in Sources */,
+				2CFAB1B62872072000D8548A /* SchoolSection.swift in Sources */,
+				2CFAB1BC2872332800D8548A /* SchoolDetailsViewController.swift in Sources */,
+				2CFAB1AC2872016D00D8548A /* SchoolsListStateView.swift in Sources */,
+				2CFAB1A628714C5400D8548A /* SchoolsDirectoryAPI.swift in Sources */,
+				2CB19A22287281DE000A5B0D /* SchoolMapAnnotation.swift in Sources */,
+				2CFAB1A228714BF500D8548A /* Strings+Localization.swift in Sources */,
+				2CFAB1B3287206BB00D8548A /* SchoolSectionHeaderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +605,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CB19A2428729F43000A5B0D /* MockSchoolAPI.swift in Sources */,
 				2CFAB17E287146B100D8548A /* _0220702_RolanMarat_NYCSchoolsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +770,7 @@
 		};
 		2CFAB18E287146B100D8548A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6BC7603BA101BB68070BBE64 /* Pods-20220702-RolanMarat-NYCSchools.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -459,6 +798,7 @@
 		};
 		2CFAB18F287146B100D8548A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A567B16CC99BF58D369260A1 /* Pods-20220702-RolanMarat-NYCSchools.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -486,6 +826,7 @@
 		};
 		2CFAB191287146B100D8548A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 157D8D2F48E7D05DE26A8358 /* Pods-20220702-RolanMarat-NYCSchoolsTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -505,6 +846,7 @@
 		};
 		2CFAB192287146B100D8548A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DA1F7B6C98E2F3DF3071E85 /* Pods-20220702-RolanMarat-NYCSchoolsTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +866,7 @@
 		};
 		2CFAB194287146B100D8548A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8564A4CDE9F97F7A01B3ECFE /* Pods-20220702-RolanMarat-NYCSchoolsUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -541,6 +884,7 @@
 		};
 		2CFAB195287146B100D8548A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7FFCF14D607F4F4A94CFE4E1 /* Pods-20220702-RolanMarat-NYCSchoolsUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
